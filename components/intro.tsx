@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image
               src="/images/team-head.jpeg"
-              alt="Ricardo portrait"
+              alt="Bikram Upadhyay"
               width="192"
               height="192"
               quality="95"
