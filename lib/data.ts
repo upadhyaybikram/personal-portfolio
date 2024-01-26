@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import alImg from "@/public/al.png";
 import auctionsliveImg from "@/public/auctionslive.png";
 import propertycreditImg from "@/public/propertycredit.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -37,69 +37,66 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Programmer (Internship) ",
+    location: "Sydney, NSW",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 2 years of studying. I immediately found an internship for 3 months and learned the concept of full stack development with Laravel, a PHP web application framework",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "Oct 2021 to Dec 2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Junior Full Stack Developer",
+    location: "Sydney, NSW",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a junior full stack developer for nearly 2 years using Laravel, REST API  and React. Worked on major projects  like Automated Contract Signing system, AWS Pinpoint Notification System and Multi Login System.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Jan 2022 to Oct 2023",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Sydney, NSW ",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer working as a freelancer. My stack includes Laravel, MySQL, React, Next.js, TypeScript, Bootstrap, Tailwind  and PostgreSQL. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Automated Contract Signing",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a full-stack developer on this project for nearly 1 year. Users can give public feedback to companies.",
+    tags: ["Laravel", "MySQL", "Boostrap", "OneSpan API", "Framework7"],
+    imageUrl: auctionsliveImg,
   },
   {
-    title: "rmtDev",
+    title: "Push Notification",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Notification system for real estate agencies regarding chat enquiries of the property.It has features like number of conversation, enquiry type and conversation details.",
+    tags: ["Laravel", "MySQL","Boostrap", "AWS Pinpoint"],
+    imageUrl: alImg,
   },
   {
-    title: "Word Analytics",
+    title: "Commission Calculator",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A service added on existing SaaS platform that calculates the amount of commission each real estate agents takes for assisting real estate buy and sales services.",
+    tags: ["Next.js", "Typescript", "React Hook Form",  "PrimeReact", "PostgreSQL", "Supabase"],
+    imageUrl: propertycreditImg,
   },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
+  "Tailwind",
+  "Boostrap",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
   "Laravel",
   "MySQL",
   "PostgreSQL",
-  "GraphQL",
-  // "Django",
-  // "Framer Motion",
+  "Git",
 ] as const;

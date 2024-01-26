@@ -22,15 +22,15 @@ export default function About() {
         After graduating with a master degree in{" "}
         <span className="font-medium">Information Technology</span>, I worked as a junior full stack
         developer and learned{" "}
-        <span className="font-medium">full-stack web development.</span>.{" "}
+        <span className="font-medium">full stack software development.</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          Laravel, MySQL, React, Next.js and Node.js
+          Laravel, MySQL, Javascript, React and Next.js
         </span>
-        . I am also familiar with TypeScript and PostgreSQL. I am always looking to
+        . I am also familiar with  <span className="font-medium">TypeScript and PostgreSQL.</span> I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
