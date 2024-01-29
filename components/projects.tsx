@@ -10,7 +10,7 @@ import Link from "next/link";
 export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);
 
-    function getProjectUrl(project) {
+    function getProjectUrl(project:{title: string}) {
         const title = project.title.toLowerCase();
         if(title.includes('admin')){
             return "https://property.credit/";
