@@ -31,9 +31,8 @@ export default function About() {
           Laravel, MySQL, Javascript, React and Next.js
         </span>
         . I am also familiar with  <span className="font-medium">TypeScript and PostgreSQL.</span> I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        learn new technologies. Currently I am running{" "}
+        <span className="font-medium">full stack Job Ready Program</span> using MERN stack.
       </p>
 
       <p>
