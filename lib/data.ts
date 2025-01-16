@@ -66,7 +66,8 @@ export const projectsData = [
   {
     title: "Automated Contract Signing",
     description:
-      "I worked as a full-stack developer on this project for nearly 1 year.",
+    "I worked as a full-stack developer on this project for nearly 1 year.",
+
     tags: ["Laravel", "MySQL", "Boostrap", "OneSpan API", "Framework7"],
     imageUrl: auctionsliveImg,
   },
@@ -78,9 +79,9 @@ export const projectsData = [
     imageUrl: alImg,
   },
   {
-    title: "Commission Calculator",
+    title: "Admin Dashboard",
     description:
-      "A service added on existing SaaS platform that calculates the amount of commission each real estate agents takes for assisting real estate buy and sales services.",
+      "Simplified admin dashboard for real estate transactions, ensuring easy real-time monitoring on the existing SaaS platform.\n",
     tags: ["Next.js", "Typescript", "React Hook Form",  "PrimeReact", "PostgreSQL", "Supabase"],
     imageUrl: propertycreditImg,
   },
