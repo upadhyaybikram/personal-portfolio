@@ -26,20 +26,19 @@ export default function About() {
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        are{" "}
         <span className="font-medium">
-          Laravel, MySQL, Javascript, React and Next.js
+          Laravel, Javascript, MySQL, MongoDB, Express, React, Node and Next.js
         </span>
         . I am also familiar with  <span className="font-medium">TypeScript and PostgreSQL.</span> I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        learn new technologies. Currently, I have got client from various country and starting a new service of {" "}
+        <span className="font-medium">Job Ready Program</span> focusing on students who are looking to land their first job in tech industry.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy walking, going to the beach,
-        watching sports, and spending time with my family. I also enjoy{" "}
-        <span className="font-medium">playing cricket and football.</span>.
+        watching sports, and spending time with my family. My favourite sport is{" "}
+        <span className="font-medium">cricket which I play on weekends</span>.
       </p>
     </motion.section>
   );

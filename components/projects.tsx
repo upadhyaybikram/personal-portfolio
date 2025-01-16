@@ -24,11 +24,11 @@ export default function Projects() {
       <SectionHeading>My projects</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
-            <Link key={index} href={getProjectUrl(project)} passHref target="_blank">
+            <div key={index}>
                     <React.Fragment key={index}>
                         <Project {...project} />
                     </React.Fragment>
-            </Link>
+            </div>
         ))}
       </div>
     </section>
