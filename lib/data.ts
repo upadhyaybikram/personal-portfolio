@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import alImg from "@/public/al.png";
 import auctionsliveImg from "@/public/auctionslive.png";
 import propertycreditImg from "@/public/propertycredit.png";
+import hpxImg from "@/public/hpx.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -53,20 +54,36 @@ export const experiencesData = [
     date: "Jan 2022 to Oct 2023",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Full Stack Engineer",
+    location: "Work from Home",
+    description:
+      "I worked as a full stack engineer on contract basis. Worked on projects like In App Notification System, Online Stream Leasing System and Automated Test for Role Based Loging System",
+    icon: React.createElement(CgWorkAlt), 
+    date: "Feb 2024 to Aug 2024",
+  },
+  {
+    title: "FreeLance Software Engineer, AI/ML Engineer",
     location: "Sydney, NSW ",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes Laravel, MySQL, React, Next.js, TypeScript, Bootstrap, Tailwind  and PostgreSQL. I'm open to full-time opportunities.",
+      "Collaborating on different projects to develop cutting-edge generative AI solutions and innovative technology products.",
     icon: React.createElement(FaReact),
-    date: "2024 - present",
+    date: "Sep 2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
+    title: "In-App Notification System",
+    description:
+    "Built a real-time notification system using the TALL stack to boost user engagement",
+    tags: ["Tailwind CSS, Alpine.js, Laravel and Livewire"],
+    imageUrl: hpxImg,
+
+  },
+  {
     title: "Automated Contract Signing",
     description:
-    "I worked as a full-stack developer on this project for nearly 1 year.",
+    "Developed an automated contract signing solution, enhancing efficiency and security over a year-long project.",
 
     tags: ["Laravel", "MySQL", "Boostrap", "OneSpan API", "Framework7"],
     imageUrl: auctionsliveImg,
@@ -81,8 +98,8 @@ export const projectsData = [
   {
     title: "Admin Dashboard",
     description:
-      "Simplified admin dashboard for real estate transactions, ensuring easy real-time monitoring on the existing SaaS platform.\n",
-    tags: ["Next.js", "Typescript", "React Hook Form",  "PrimeReact", "PostgreSQL", "Supabase"],
+      "Simplified admin dashboard for real estate transactions usng MERN stack, ensuring easy real-time monitoring on the existing SaaS platform.\n",
+    tags: ["MongoDB", "Express", "React", "Node"],
     imageUrl: propertycreditImg,
   },
 ] as const;
@@ -94,7 +111,10 @@ export const skillsData = [
   "Boostrap",
   "JavaScript",
   "TypeScript",
+  "MongoDB",
+  "Express",
   "React",
+  "Node",
   "Next.js",
   "Laravel",
   "MySQL",
