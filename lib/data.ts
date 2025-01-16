@@ -66,7 +66,8 @@ export const projectsData = [
   {
     title: "Automated Contract Signing",
     description:
-      "Developed API-driven system for auto-filled contract documents, interactive interface, timely alerts, and seamless distribution to required real estate stakeholders.",
+    "I worked as a full-stack developer on this project for nearly 1 year.",
+
     tags: ["Laravel", "MySQL", "Boostrap", "OneSpan API", "Framework7"],
     imageUrl: auctionsliveImg,
   },
