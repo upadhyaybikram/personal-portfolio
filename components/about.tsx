@@ -11,9 +11,11 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
+      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
+      id="about"
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
@@ -29,8 +31,9 @@ export default function About() {
           Laravel, MySQL, Javascript, React and Next.js
         </span>
         . I am also familiar with  <span className="font-medium">TypeScript and PostgreSQL.</span> I am always looking to
-        learn new technologies. Currently I am running{" "}
-        <span className="font-medium">full stack Job Ready Program</span> using MERN stack.
+        learn new technologies. I am currently looking for a{" "}
+        <span className="font-medium">full-time position</span> as a software
+        developer.
       </p>
 
       <p>
