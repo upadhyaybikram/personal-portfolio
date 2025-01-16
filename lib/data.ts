@@ -66,7 +66,7 @@ export const projectsData = [
   {
     title: "Automated Contract Signing",
     description:
-      "I worked as a full-stack developer on this project for nearly 1 year. Users can give public feedback to companies.",
+      "I worked as a full-stack developer on this project for nearly 1 year.",
     tags: ["Laravel", "MySQL", "Boostrap", "OneSpan API", "Framework7"],
     imageUrl: auctionsliveImg,
   },
