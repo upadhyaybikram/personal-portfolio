@@ -2,12 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import alImg from "@/public/al.png";
+import { MdOutlineWork } from "react-icons/md";
 import auctionsliveImg from "@/public/auctionslive.png";
-import propertycreditImg from "@/public/propertycredit.png";
 import hpxImg from "@/public/hpx.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import kangamallImg from "@/public/rmtdev.png";
+import mubbooImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -38,86 +37,112 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Programmer (Internship) ",
-    location: "Sydney, NSW",
+    title: "Software Programmer Intern",
+    location: "AuctionTech · Sydney, NSW",
     description:
-      "I graduated after 2 years of studying. I immediately found an internship for 3 months and learned the concept of full stack development with Laravel, a PHP web application framework",
+      "Completed a 3-month internship immediately after graduating, building a foundation in full stack development with Laravel. Delivered responsive UIs, prototyped features under Agile/Scrum, and conducted API research using Postman.",
     icon: React.createElement(LuGraduationCap),
-    date: "Oct 2021 to Dec 2021",
+    date: "Oct 2021 – Dec 2021",
   },
   {
     title: "Junior Full Stack Developer",
-    location: "Sydney, NSW",
+    location: "AuctionTech · Sydney, NSW",
     description:
-      "I worked as a junior full stack developer for nearly 2 years using Laravel, REST API  and React. Worked on major projects  like Automated Contract Signing system, AWS Pinpoint Notification System and Multi Login System.",
+      "Worked across 5 projects in a team of 6, delivering an automated contract signing system with the OneSpan API (20% subscriber growth, 30% faster processing), an AWS Pinpoint push notification system for real estate agencies, and a Next.js TypeScript admin dashboard. Achieved 80% PHPUnit test coverage.",
     icon: React.createElement(CgWorkAlt),
-    date: "Jan 2022 to Oct 2023",
+    date: "Jan 2022 – Oct 2023",
   },
   {
     title: "Full Stack Engineer",
-    location: "Work from Home",
+    location: "HPX Group · Remote",
     description:
-      "I worked as a full stack engineer on contract basis. Worked on projects like In App Notification System, Online Stream Leasing System and Automated Test for Role Based Loging System",
-    icon: React.createElement(CgWorkAlt), 
-    date: "Feb 2024 to Aug 2024",
+      "Delivered contract projects including an In-App Notification System using the TALL stack (Tailwind, Alpine.js, Laravel, Livewire), an Online Stream Leasing System, and automated role-based login testing.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Feb 2024 – Aug 2024",
   },
   {
-    title: "FreeLance Software Engineer, AI/ML Engineer",
-    location: "Sydney, NSW ",
+    title: "Software Engineer",
+    location: "Outlier · Sydney, NSW",
     description:
-      "Collaborating on different projects to develop cutting-edge generative AI solutions and innovative technology products.",
+      "Collaborated on AI model evaluation and code quality projects, applying expertise in TypeScript and full stack development to assess and improve generative AI outputs across various technical domains.",
+    icon: React.createElement(MdOutlineWork),
+    date: "Sep 2024 – Sep 2025",
+  },
+  {
+    title: "Freelance Full Stack Developer",
+    location: "Self-employed · Sydney, NSW",
+    description:
+      "Contracted by an early-stage founder to architect and build two production-grade platforms: KangaMall (headless multi-vendor ecommerce on MedusaJS v2 with Stripe Connect, Algolia, and Turborepo monorepo) and Mubboo AI (AI-powered discovery platform on AWS Lambda, AWS Bedrock, pgvector, and DynamoDB).",
     icon: React.createElement(FaReact),
-    date: "Sep 2024 - present",
+    date: "Oct 2025 – Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "In-App Notification System",
+    title: "KangaMall – Headless Ecommerce Platform",
     description:
-    "Built a real-time notification system using the TALL stack to boost user engagement",
-    tags: ["Tailwind CSS, Alpine.js, Laravel and Livewire"],
-    imageUrl: hpxImg,
-
+      "Multi-vendor marketplace built on MedusaJS v2 with custom modules for sellers, commissions, Stripe Connect payments, Algolia search, and a Dropshipzone supplier sync engine. Turborepo monorepo spanning a Next.js 15 storefront and Vite vendor admin panel.",
+    tags: ["MedusaJS v2", "Next.js 15", "TypeScript", "Stripe Connect", "Algolia", "PostgreSQL", "Turborepo", "Railway"],
+    imageUrl: kangamallImg,
+  },
+  {
+    title: "Mubboo AI – AI Discovery Platform",
+    description:
+      "AI-powered local discovery platform with a serverless affiliate query pipeline on AWS Lambda, multi-model AWS Bedrock reasoning (Amazon Nova, Claude Haiku), pgvector RAG knowledge base, and real-time WebSocket chat. Infrastructure provisioned with AWS CDK.",
+    tags: ["Next.js 14", "AWS Lambda", "AWS Bedrock", "pgvector", "PostgreSQL", "DynamoDB", "Redis", "AWS CDK"],
+    imageUrl: mubbooImg,
   },
   {
     title: "Automated Contract Signing",
     description:
-    "Developed an automated contract signing solution, enhancing efficiency and security over a year-long project.",
-
-    tags: ["Laravel", "MySQL", "Boostrap", "OneSpan API", "Framework7"],
+      "Delivered an end-to-end automated contract signing system using the OneSpan e-signature API integrated with a Laravel backend, resulting in a 20% increase in subscribers and a 30% reduction in contract processing time.",
+    tags: ["Laravel", "MySQL", "Bootstrap", "OneSpan API", "Framework7", "REST API"],
     imageUrl: auctionsliveImg,
   },
   {
-    title: "Push Notification",
+    title: "In-App Notification System",
     description:
-      "Notification system for real estate agencies regarding chat enquiries of the property.It has features like number of conversation, enquiry type and conversation details.",
-    tags: ["Laravel", "MySQL","Boostrap", "AWS Pinpoint"],
-    imageUrl: alImg,
-  },
-  {
-    title: "Admin Dashboard",
-    description:
-      "Simplified admin dashboard for real estate transactions usng MERN stack, ensuring easy real-time monitoring on the existing SaaS platform.\n",
-    tags: ["MongoDB", "Express", "React", "Node"],
-    imageUrl: propertycreditImg,
+      "Built a real-time in-app notification system using the TALL stack for a SaaS platform, delivering instant alerts to users and boosting engagement. Implemented with Laravel event broadcasting and Livewire reactive components.",
+    tags: ["Tailwind CSS", "Alpine.js", "Laravel", "Livewire", "MySQL", "WebSocket"],
+    imageUrl: hpxImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "Tailwind",
-  "Boostrap",
-  "JavaScript",
   "TypeScript",
-  "MongoDB",
-  "Express",
-  "React",
-  "Node",
+  "JavaScript",
+  "PHP",
+  "SQL",
   "Next.js",
+  "React",
+  "Tailwind CSS",
+  "Zustand",
+  "Framer Motion",
+  "Vite",
+  "Node.js",
   "Laravel",
-  "MySQL",
+  "MedusaJS",
+  "Express",
   "PostgreSQL",
+  "MySQL",
+  "Redis",
+  "DynamoDB",
+  "MongoDB",
+  "Drizzle ORM",
+  "MikroORM",
+  "AWS Lambda",
+  "AWS CDK",
+  "AWS Bedrock",
+  "API Gateway",
+  "S3",
+  "EventBridge",
+  "Stripe",
+  "Algolia",
+  "Auth.js",
+  "REST API",
   "Git",
+  "Docker",
+  "Linux",
+  "Agile / Scrum",
 ] as const;

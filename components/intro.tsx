@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image
               src="/images/team-head.jpeg"
-              alt="Bikram Upadhyay"
+              alt="Bikram Upadhyay — Full Stack Developer Sydney"
               width="192"
               height="192"
               quality="95"
@@ -62,10 +62,12 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Bikram Upadhyay.</span> I'm a{" "}
+        <span className="font-bold">Hello, I&apos;m Bikram Upadhyay.</span> I&apos;m a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">more than 4 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>.
+        <span className="font-bold">5+ years</span> of experience, building{" "}
+        <span className="italic">AI-powered platforms</span>,{" "}
+        <span className="italic">headless ecommerce</span>, and{" "}
+        <span className="italic">cloud-native apps</span>.
       </motion.h1>
 
       <motion.div
@@ -90,7 +92,7 @@ export default function Intro() {
 
         <a
           className="flex items-center gap-2 py-3 transition bg-white rounded-full outline-none cursor-pointer group px-7 focus:scale-110 hover:scale-110 active:scale-105 borderBlack dark:bg-white/10"
-          // href="/Bikram Upadhyay CV.pdf"
+          href="/Bikram Upadhyay CV.pdf"
           download
         >
           Download CV{" "}
@@ -101,6 +103,8 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/upadhyaybikram/"
           target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn profile"
         >
           <BsLinkedin />
         </a>
@@ -109,6 +113,8 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/upadhyaybikram"
           target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub profile"
         >
           <FaGithubSquare />
         </a>

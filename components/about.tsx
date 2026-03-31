@@ -19,26 +19,45 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a master degree in{" "}
-        <span className="font-medium">Information Technology</span>, I worked as a junior full stack
-        developer and learned{" "}
-        <span className="font-medium">full stack software development.</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        are{" "}
+        I&apos;m a{" "}
+        <span className="font-medium">Full Stack Developer based in Sydney</span>{" "}
+        with 5+ years of experience building production-grade web platforms
+        across SaaS, ecommerce, and AI verticals. My current focus is
+        architecting{" "}
         <span className="font-medium">
-          Laravel, Javascript, MySQL, MongoDB, Express, React, Node and Next.js
-        </span>
-        . I am also familiar with  <span className="font-medium">TypeScript and PostgreSQL.</span> I am always looking to
-        learn new technologies. Currently, I have got client from various country and starting a new service of {" "}
-        <span className="font-medium">Job Ready Program</span> focusing on students who are looking to land their first job in tech industry.
+          AI-powered applications and headless ecommerce systems
+        </span>{" "}
+        — from database design and backend APIs all the way through to frontend
+        and cloud deployment.
+      </p>
+
+      <p className="mb-3">
+        I work across the full delivery cycle:{" "}
+        <span className="font-medium">
+          Next.js, Node.js, Laravel, MedusaJS, AWS Lambda, AWS Bedrock,
+          PostgreSQL, and Redis
+        </span>{" "}
+        are my daily tools. I&apos;ve built multi-vendor marketplace platforms,
+        serverless affiliate pipelines with multi-model AI reasoning, and
+        real-time chat systems — writing infrastructure as code with AWS CDK and
+        shipping to production on Railway and Vercel.
+      </p>
+
+      <p className="mb-3">
+        <span className="italic">What drives me</span> is the problem-solving
+        side of engineering — taking a complex idea and turning it into a clean,
+        scalable system.{" "}
+        <span className="font-medium">
+          I&apos;m open to freelance projects and full-time opportunities
+        </span>{" "}
+        anywhere in the world, and I especially enjoy working with early-stage
+        founders who need someone to own the technical side end-to-end.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy walking, going to the beach,
-        watching sports, and spending time with my family. My favourite sport is{" "}
-        <span className="font-medium">cricket which I play on weekends</span>.
+        <span className="italic">Outside of code</span>, I enjoy walking,
+        heading to the beach, watching cricket, and spending time with my
+        family.
       </p>
     </motion.section>
   );
